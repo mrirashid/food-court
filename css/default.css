@@ -1,0 +1,124 @@
+/* ==========================================================================
+    Template Name: Damoxs - Sass & App Landing HTML5 Template
+    Template URI: http://dreamroadtech.com/templates/morix-preview/
+    Description: Damoxs - Sass & App Landing HTML5 Template
+    Author: Tanjina
+    Author URI: http://www.tanjina.ml.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+/*...................................
+   1. Template default css
+   ................................... */
+
+html {
+  overflow-x: hidden;
+
+}
+   
+body {
+  font-family: 'Karla', sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #131943;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  color: #566977;
+}
+
+ul {
+  list-style: outside none none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow:none;
+}
+
+/*------ 1. default-css ------*/
+.section-padding-top{
+  padding-top: 100px;
+}
+.section-padding-bottom{
+  padding-bottom: 100px;
+}.section-padding-top{
+  padding: 0 100px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*...................................
+   2. Header css
+   ................................... */
+

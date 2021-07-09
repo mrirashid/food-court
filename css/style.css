@@ -1,0 +1,202 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding-bottom: 100px;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(#fba24f, #ff4500);
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border: 1px solid #fba24f;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.btn:hover{
+    color: #fba24f;
+    background: transparent;
+}
+h2{
+    color: #333333;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+h2 span{
+    color: #fba24f;
+}
+/* 01 header area  */
+header{
+    background: #333333;
+}
+header .navbar h5{
+    color: #fba24f;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Yomogi', cursive;
+}
+header .navbar h5 span{
+    color: #fff;
+}
+header .navbar .nav-link{
+    color: #fff;
+    font-weight: 16px;
+    font-weight: 400;
+    transition: .3s;
+    text-transform: capitalize;
+}
+header .navbar .nav-link:hover{
+    color: #fba24f;
+    text-decoration: underline;
+}
+/* 02 hero area  */
+.hero .left-content{
+    padding-top: 100px;
+}
+.hero .left-content h2{
+    font-size:55px ;
+    font-weight:900 ;
+    color:#333 ;
+    padding: 20px 82px 20px 0;
+}
+.hero .left-content h2 span{
+    color: #fba24f;
+}
+.hero .left-content p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding: 0px 40px 20px 0;
+}
+/* 03 about area  */
+.about{
+    background: url(../images/about-bg.png) no-repeat center/cover;
+    height: 500px;
+}
+.about .left-content img{
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: auto;
+}
+.about .right-content{
+    padding-top: 100px;
+    float: left;
+}
+.about .right-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 20px;
+}
+/* 04 recipes area */
+.recipes{
+    background: #eeeeee;
+    padding: 30px;
+}
+.recipes .content{
+    margin-top: 50px;
+}
+.recipes .content p{
+    padding: 0px 300px;
+    
+}
+.recipes .card-deck .card{
+    margin: 50px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+.recipes .card-deck .card-body{
+    padding-left: -10px;
+}
+.recipes .card-deck .card .card-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.recipes .card-deck .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+/* 05 contact area  */
+
+.contact .container{
+    background: #EC4E8D;
+    height: 300px;
+    color: #fff;
+    border-radius: 20px;
+}
+.contact .content h2{
+    color: #fff;
+    margin-top: 30px;
+}
+.contact .content p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+.contact .content input{
+    padding: 3px 10px;
+    color: gray;
+
+}
+.contact .content .btn{
+   margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 0;
+    padding: 10px 25px;
+    transition: .3s;
+}
+.contact .content .btn:hover{
+    background: #000;
+    color: #fff;
+}
+/* 06 footer area  */
+.footer{
+    background: #000;
+    padding-bottom: 0;
+}
+.footer .content{
+
+    margin-top: 50px;
+}
+.footer .content h5{
+    color: #fba24f;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Yomogi', cursive;
+}
+.footer .content  h5 span{
+    color: #fff;
+}
+.footer .content h3{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+footer{
+    color: #fff;
+    margin-top: 100px;
+    font-size: 14px;
+}
